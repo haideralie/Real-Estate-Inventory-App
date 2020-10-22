@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Add">
+
+
+
+    <TextView
+
+        android:id="@+id/textView14"
+        android:layout_width="105dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="32dp"
+
+
+        android:layout_marginEnd="288dp"
+        android:layout_marginRight="288dp"
+        android:text="Product"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/product"
+        android:layout_width="374dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:hint="Enter Plot Data"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="103dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="140dp"
+        android:text="Type"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RadioButton
+        android:id="@+id/in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:text="IN"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="36dp"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:text="OUT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="103dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="284dp"
+        android:layout_marginRight="284dp"
+        android:text="Quantity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="375dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="268dp"
+        android:ems="10"
+        android:hint="Enter Quantity"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="13dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="108dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="332dp"
+        android:text="Discription "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/discription"
+        android:layout_width="367dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="380dp"
+        android:ems="10"
+        android:hint="Enter Plot Discription"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
